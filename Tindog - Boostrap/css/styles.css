@@ -1,0 +1,180 @@
+body {
+    font-family: 'Montserrat';
+}
+h1 {
+    font-family: 'Montserrat-Black';
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bolder;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat-Light';
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+#title {
+    color: #fff;
+}
+
+.container-fluid {
+    padding: 3% 15% ;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+    font-weight: bolder;
+}
+
+.middlesession {
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Montserrat-Bold';
+    font-size: 3em;
+    line-height: 3.5rem;
+    font-weight: bold;
+    
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+.imgmd {
+    color: #ef8172;
+    margin-bottom: 10px;
+}
+
+.imgmd:hover {
+    color: #ff4c68;
+}
+
+.iphone {
+    transform: rotate(25deg);
+    width: 15%;
+    position: absolute;
+    right: 30%;
+}
+
+#features {
+    padding: 7% 15%;
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+}
+
+.middlesession p {
+    color: #8f8f8f ;
+}
+
+/* Testimonials Section */
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+.card {
+    padding: 12px;
+}
+
+/* Pricing Section */
+
+#pricing {
+    padding: 100px;
+    text-align: center; 
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    
+    .iphone {
+        position: static;
+        transform: rotate(0);
+        width: 200px;
+        height: 400px;
+    }
+}
+
+
+/* Cta session */
+
+#cta {
+    background-color: #ff4c68;
+}
+
+.cta-text {
+    font-family: 'Montserrat-Black';
+    font-size: 3em;
+    font-weight: bold;
+    color: #fff;
+}
+
+.cta-container {
+    padding: 2%;
+}
+
+
+/* Footer session */
+
+#footer {
+    text-align: center;
+    background-color: #fff;
+}
+
+.contact-icon {
+    color: #000;
+}
+
+.contact-icon:hover {
+    width: 35px;
+    height: 35px;
+    transition: 0.5s;
+}
